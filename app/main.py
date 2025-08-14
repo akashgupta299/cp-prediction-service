@@ -1,8 +1,10 @@
 import os
 import re
-import pickle
+import joblib
 from pathlib import Path
 from typing import Dict, Any
+import pymysql
+from datetime import datetime
 
 try:
     from fastapi import FastAPI, HTTPException
@@ -39,12 +41,9 @@ def load_models() -> Dict[str, Dict[str, Any]]:
         for sub in MODEL_DIR.iterdir():
             if sub.is_dir():
                 try:
-                    with open(sub / "model.pkl", "rb") as f:
-                        model = pickle.load(f)
-                    with open(sub / "vectorizer.pkl", "rb") as f:
-                        vectorizer = pickle.load(f)
-                    with open(sub / "encoder.pkl", "rb") as f:
-                        encoder = pickle.load(f)
+                    model = joblib.load(sub / "address_model.joblib")
+                    vectorizer = joblib.load(sub / "address_vectorizer.joblib")
+                    encoder = joblib.load(sub / "address_encoder.joblib")
                     models[sub.name] = {
                         "model": model,
                         "vectorizer": vectorizer,
@@ -54,7 +53,7 @@ def load_models() -> Dict[str, Dict[str, Any]]:
                     continue
 
     if not models:
-        from .dummy_model import DummyModel, DummyVectorizer, DummyEncoder
+        from dummy_model import DummyModel, DummyVectorizer, DummyEncoder
         models["12"] = {
             "model": DummyModel(),
             "vectorizer": DummyVectorizer(),
@@ -67,6 +66,40 @@ def load_models() -> Dict[str, Dict[str, Any]]:
 MODELS = load_models()
 
 _PINCODE_REGEX = re.compile(r"\b(\d{6})\b")
+
+def save_prediction_to_db(shipment_id: str, address: str, pincode: str, predicted_cp: str, confidence: float):
+    """Save prediction to MySQL database"""
+    try:
+        connection = pymysql.connect(
+            host='localhost',
+            user='cp_service',
+            password='$eRv!(e$@12',
+            database='cp_predictions'
+        )
+        cursor = connection.cursor()
+        
+        insert_query = """
+        INSERT INTO predictions (shipment_id, address, pincode, predicted_cp, confidence, model_version, cached, timestamp)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+        """
+        
+        cursor.execute(insert_query, (
+            shipment_id, 
+            address, 
+            pincode, 
+            predicted_cp, 
+            confidence,
+            'v1',  # model_version
+            False,  # cached
+            datetime.now()
+        ))
+        
+        connection.commit()
+        connection.close()
+        print(f"✅ Saved prediction for shipment {shipment_id} to database")
+        
+    except Exception as e:
+        print(f"❌ Failed to save prediction to database: {e}")
 
 def _extract_pincode(address: str) -> str:
     match = _PINCODE_REGEX.search(address)
@@ -97,6 +130,16 @@ def predict_cp(address: str) -> Dict[str, Any]:
 @app.post("/predict")
 def predict(req: PredictionRequest):
     result = predict_cp(req.address)
+    
+    # Save prediction to database
+    save_prediction_to_db(
+        shipment_id=req.shipment_id,
+        address=req.address,
+        pincode=result['pincode'],
+        predicted_cp=result['predicted_cp'],
+        confidence=result['confidence']
+    )
+    
     return {
         'shipment_id': req.shipment_id,
         'predicted_cp': result['predicted_cp'],

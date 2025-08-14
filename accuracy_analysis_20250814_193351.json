@@ -1,0 +1,1830 @@
+{
+  "summary": {
+    "total_predictions": 88,
+    "matched_addresses": 88,
+    "exact_matches": 78,
+    "overall_accuracy": 0.8863636363636364,
+    "valid_only_accuracy": 0.8245614035087719,
+    "confidence_stats": {
+      "mean": 0.8157102272727272,
+      "median": 0.93335,
+      "std": 0.2301423267976923,
+      "min": 0.1459,
+      "max": 1.0
+    }
+  },
+  "cp_analysis": {
+    "EF187": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.4924,
+      "confidence_scores": [
+        0.4924
+      ],
+      "accuracy": 1.0
+    },
+    "INVALID": {
+      "count": 31,
+      "correct": 31,
+      "avg_confidence": 0.9707870967741935,
+      "confidence_scores": [
+        0.9977,
+        0.9976,
+        0.9999,
+        0.9945,
+        0.9996,
+        0.9913,
+        0.9977,
+        0.9983,
+        0.9972,
+        0.9994,
+        0.999,
+        0.9969,
+        0.9726,
+        0.9944,
+        0.9406,
+        0.9962,
+        0.9876,
+        0.9859,
+        0.9997,
+        0.9997,
+        0.9998,
+        0.9989,
+        1.0,
+        0.9993,
+        0.9978,
+        0.9996,
+        0.6272,
+        0.9987,
+        0.993,
+        0.9968,
+        0.6375
+      ],
+      "accuracy": 1.0
+    },
+    "AF588": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9823,
+      "confidence_scores": [
+        0.9823
+      ],
+      "accuracy": 1.0
+    },
+    "AF868": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.5843,
+      "confidence_scores": [
+        0.5843
+      ],
+      "accuracy": 0.0
+    },
+    "NF191": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9446,
+      "confidence_scores": [
+        0.9446
+      ],
+      "accuracy": 1.0
+    },
+    "QF134": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.8975,
+      "confidence_scores": [
+        0.8975
+      ],
+      "accuracy": 1.0
+    },
+    "OF1406": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.622,
+      "confidence_scores": [
+        0.622
+      ],
+      "accuracy": 1.0
+    },
+    "PF1852": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.4997,
+      "confidence_scores": [
+        0.4997
+      ],
+      "accuracy": 1.0
+    },
+    "LF680": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.7919,
+      "confidence_scores": [
+        0.7919
+      ],
+      "accuracy": 0.0
+    },
+    "SF097": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.3392,
+      "confidence_scores": [
+        0.3392
+      ],
+      "accuracy": 0.0
+    },
+    "VF1413": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.7142,
+      "confidence_scores": [
+        0.7142
+      ],
+      "accuracy": 1.0
+    },
+    "BF473": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9873,
+      "confidence_scores": [
+        0.9873
+      ],
+      "accuracy": 1.0
+    },
+    "WF970": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.6806,
+      "confidence_scores": [
+        0.6806
+      ],
+      "accuracy": 0.0
+    },
+    "BF788": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.8839,
+      "confidence_scores": [
+        0.8839
+      ],
+      "accuracy": 1.0
+    },
+    "AF1907": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.4061,
+      "confidence_scores": [
+        0.4061
+      ],
+      "accuracy": 1.0
+    },
+    "OF2383": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9828,
+      "confidence_scores": [
+        0.9828
+      ],
+      "accuracy": 1.0
+    },
+    "BF2242": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.7275,
+      "confidence_scores": [
+        0.7275
+      ],
+      "accuracy": 1.0
+    },
+    "VF727": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.757,
+      "confidence_scores": [
+        0.757
+      ],
+      "accuracy": 1.0
+    },
+    "BF845": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9713,
+      "confidence_scores": [
+        0.9713
+      ],
+      "accuracy": 1.0
+    },
+    "LF956": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9387,
+      "confidence_scores": [
+        0.9387
+      ],
+      "accuracy": 1.0
+    },
+    "OF2279": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9707,
+      "confidence_scores": [
+        0.9707
+      ],
+      "accuracy": 1.0
+    },
+    "WF644": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.6789,
+      "confidence_scores": [
+        0.6789
+      ],
+      "accuracy": 1.0
+    },
+    "IF531": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.8887,
+      "confidence_scores": [
+        0.8887
+      ],
+      "accuracy": 1.0
+    },
+    "PF582": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9986,
+      "confidence_scores": [
+        0.9986
+      ],
+      "accuracy": 1.0
+    },
+    "TF152": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.1562,
+      "confidence_scores": [
+        0.1562
+      ],
+      "accuracy": 0.0
+    },
+    "NF049": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.6215,
+      "confidence_scores": [
+        0.6215
+      ],
+      "accuracy": 1.0
+    },
+    "RF624": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9972,
+      "confidence_scores": [
+        0.9972
+      ],
+      "accuracy": 1.0
+    },
+    "BF1832": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.1868,
+      "confidence_scores": [
+        0.1868
+      ],
+      "accuracy": 0.0
+    },
+    "RF1185": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.935,
+      "confidence_scores": [
+        0.935
+      ],
+      "accuracy": 1.0
+    },
+    "QF179": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.7988,
+      "confidence_scores": [
+        0.7988
+      ],
+      "accuracy": 1.0
+    },
+    "JF3311": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.8125,
+      "confidence_scores": [
+        0.8125
+      ],
+      "accuracy": 0.0
+    },
+    "BF1583": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.8289,
+      "confidence_scores": [
+        0.8289
+      ],
+      "accuracy": 1.0
+    },
+    "UF4695": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.4116,
+      "confidence_scores": [
+        0.4116
+      ],
+      "accuracy": 1.0
+    },
+    "BF1645": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.8971,
+      "confidence_scores": [
+        0.8971
+      ],
+      "accuracy": 1.0
+    },
+    "EF1093": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.4841,
+      "confidence_scores": [
+        0.4841
+      ],
+      "accuracy": 1.0
+    },
+    "RF829": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9158,
+      "confidence_scores": [
+        0.9158
+      ],
+      "accuracy": 1.0
+    },
+    "IF495": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.1621,
+      "confidence_scores": [
+        0.1621
+      ],
+      "accuracy": 1.0
+    },
+    "QF639": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.5924,
+      "confidence_scores": [
+        0.5924
+      ],
+      "accuracy": 1.0
+    },
+    "HF1326": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9273,
+      "confidence_scores": [
+        0.9273
+      ],
+      "accuracy": 1.0
+    },
+    "QF1123": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.5364,
+      "confidence_scores": [
+        0.5364
+      ],
+      "accuracy": 1.0
+    },
+    "CF1357": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9939,
+      "confidence_scores": [
+        0.9939
+      ],
+      "accuracy": 1.0
+    },
+    "HF1423": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.7222,
+      "confidence_scores": [
+        0.7222
+      ],
+      "accuracy": 1.0
+    },
+    "OF801": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.8185,
+      "confidence_scores": [
+        0.8185
+      ],
+      "accuracy": 1.0
+    },
+    "TF261": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9422,
+      "confidence_scores": [
+        0.9422
+      ],
+      "accuracy": 1.0
+    },
+    "KF055": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.963,
+      "confidence_scores": [
+        0.963
+      ],
+      "accuracy": 1.0
+    },
+    "UF1972": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.7545,
+      "confidence_scores": [
+        0.7545
+      ],
+      "accuracy": 1.0
+    },
+    "XF549": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.7864,
+      "confidence_scores": [
+        0.7864
+      ],
+      "accuracy": 0.0
+    },
+    "OTHER": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.5957,
+      "confidence_scores": [
+        0.5957
+      ],
+      "accuracy": 0.0
+    },
+    "PF764": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.6437,
+      "confidence_scores": [
+        0.6437
+      ],
+      "accuracy": 1.0
+    },
+    "JF432": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9979,
+      "confidence_scores": [
+        0.9979
+      ],
+      "accuracy": 1.0
+    },
+    "KF2996": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.1459,
+      "confidence_scores": [
+        0.1459
+      ],
+      "accuracy": 1.0
+    },
+    "JF1366": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.535,
+      "confidence_scores": [
+        0.535
+      ],
+      "accuracy": 1.0
+    },
+    "UF127": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9899,
+      "confidence_scores": [
+        0.9899
+      ],
+      "accuracy": 1.0
+    },
+    "QF517": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9317,
+      "confidence_scores": [
+        0.9317
+      ],
+      "accuracy": 1.0
+    },
+    "EF1538": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.6569,
+      "confidence_scores": [
+        0.6569
+      ],
+      "accuracy": 1.0
+    },
+    "TF356": {
+      "count": 1,
+      "correct": 0,
+      "avg_confidence": 0.5647,
+      "confidence_scores": [
+        0.5647
+      ],
+      "accuracy": 0.0
+    },
+    "XF513": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.9266,
+      "confidence_scores": [
+        0.9266
+      ],
+      "accuracy": 1.0
+    },
+    "BF3046": {
+      "count": 1,
+      "correct": 1,
+      "avg_confidence": 0.7155,
+      "confidence_scores": [
+        0.7155
+      ],
+      "accuracy": 1.0
+    }
+  },
+  "actual_cp_analysis": {
+    "EF187": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "EF187": 1
+      },
+      "accuracy": 1.0
+    },
+    "INVALID": {
+      "count": 31,
+      "correct": 31,
+      "predicted_as": {
+        "INVALID": 31
+      },
+      "accuracy": 1.0
+    },
+    "AF588": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "AF588": 1
+      },
+      "accuracy": 1.0
+    },
+    "AF360": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "AF868": 1
+      },
+      "accuracy": 0.0
+    },
+    "NF191": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "NF191": 1
+      },
+      "accuracy": 1.0
+    },
+    "QF134": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "QF134": 1
+      },
+      "accuracy": 1.0
+    },
+    "OF1406": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "OF1406": 1
+      },
+      "accuracy": 1.0
+    },
+    "PF1852": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "PF1852": 1
+      },
+      "accuracy": 1.0
+    },
+    "LV00049": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "LF680": 1
+      },
+      "accuracy": 0.0
+    },
+    "S03": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "SF097": 1
+      },
+      "accuracy": 0.0
+    },
+    "VF1413": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "VF1413": 1
+      },
+      "accuracy": 1.0
+    },
+    "BF473": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "BF473": 1
+      },
+      "accuracy": 1.0
+    },
+    "WV00016": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "WF970": 1
+      },
+      "accuracy": 0.0
+    },
+    "BF788": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "BF788": 1
+      },
+      "accuracy": 1.0
+    },
+    "AF1907": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "AF1907": 1
+      },
+      "accuracy": 1.0
+    },
+    "OF2383": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "OF2383": 1
+      },
+      "accuracy": 1.0
+    },
+    "BF2242": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "BF2242": 1
+      },
+      "accuracy": 1.0
+    },
+    "VF727": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "VF727": 1
+      },
+      "accuracy": 1.0
+    },
+    "BF845": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "BF845": 1
+      },
+      "accuracy": 1.0
+    },
+    "LF956": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "LF956": 1
+      },
+      "accuracy": 1.0
+    },
+    "OF2279": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "OF2279": 1
+      },
+      "accuracy": 1.0
+    },
+    "WF644": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "WF644": 1
+      },
+      "accuracy": 1.0
+    },
+    "IF531": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "IF531": 1
+      },
+      "accuracy": 1.0
+    },
+    "PF582": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "PF582": 1
+      },
+      "accuracy": 1.0
+    },
+    "T05": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "TF152": 1
+      },
+      "accuracy": 0.0
+    },
+    "NF049": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "NF049": 1
+      },
+      "accuracy": 1.0
+    },
+    "RF624": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "RF624": 1
+      },
+      "accuracy": 1.0
+    },
+    "BF2101": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "BF1832": 1
+      },
+      "accuracy": 0.0
+    },
+    "RF1185": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "RF1185": 1
+      },
+      "accuracy": 1.0
+    },
+    "QF179": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "QF179": 1
+      },
+      "accuracy": 1.0
+    },
+    "J03": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "JF3311": 1
+      },
+      "accuracy": 0.0
+    },
+    "BF1583": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "BF1583": 1
+      },
+      "accuracy": 1.0
+    },
+    "UF4695": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "UF4695": 1
+      },
+      "accuracy": 1.0
+    },
+    "BF1645": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "BF1645": 1
+      },
+      "accuracy": 1.0
+    },
+    "EF1093": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "EF1093": 1
+      },
+      "accuracy": 1.0
+    },
+    "RF829": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "RF829": 1
+      },
+      "accuracy": 1.0
+    },
+    "IF495": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "IF495": 1
+      },
+      "accuracy": 1.0
+    },
+    "QF639": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "QF639": 1
+      },
+      "accuracy": 1.0
+    },
+    "HF1326": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "HF1326": 1
+      },
+      "accuracy": 1.0
+    },
+    "QF1123": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "QF1123": 1
+      },
+      "accuracy": 1.0
+    },
+    "CF1357": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "CF1357": 1
+      },
+      "accuracy": 1.0
+    },
+    "HF1423": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "HF1423": 1
+      },
+      "accuracy": 1.0
+    },
+    "OF801": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "OF801": 1
+      },
+      "accuracy": 1.0
+    },
+    "TF261": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "TF261": 1
+      },
+      "accuracy": 1.0
+    },
+    "KF055": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "KF055": 1
+      },
+      "accuracy": 1.0
+    },
+    "UF1972": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "UF1972": 1
+      },
+      "accuracy": 1.0
+    },
+    "XV00013": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "XF549": 1
+      },
+      "accuracy": 0.0
+    },
+    "AF2043": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "OTHER": 1
+      },
+      "accuracy": 0.0
+    },
+    "PF764": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "PF764": 1
+      },
+      "accuracy": 1.0
+    },
+    "JF432": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "JF432": 1
+      },
+      "accuracy": 1.0
+    },
+    "KF2996": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "KF2996": 1
+      },
+      "accuracy": 1.0
+    },
+    "JF1366": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "JF1366": 1
+      },
+      "accuracy": 1.0
+    },
+    "UF127": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "UF127": 1
+      },
+      "accuracy": 1.0
+    },
+    "QF517": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "QF517": 1
+      },
+      "accuracy": 1.0
+    },
+    "EF1538": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "EF1538": 1
+      },
+      "accuracy": 1.0
+    },
+    "TF648": {
+      "count": 1,
+      "correct": 0,
+      "predicted_as": {
+        "TF356": 1
+      },
+      "accuracy": 0.0
+    },
+    "XF513": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "XF513": 1
+      },
+      "accuracy": 1.0
+    },
+    "BF3046": {
+      "count": 1,
+      "correct": 1,
+      "predicted_as": {
+        "BF3046": 1
+      },
+      "accuracy": 1.0
+    }
+  },
+  "detailed_results": [
+    {
+      "shipment_id": "BATCH_122028_1755179942",
+      "address": "saidev enterprise naicker new street ground floor no 213 madurai 625001 madurai",
+      "predicted_cp": "EF187",
+      "actual_cp": "EF187",
+      "confidence": 0.4924,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_100132_1755179942",
+      "address": "vvv 574111 udupi",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9977,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_137272_1755179942",
+      "address": "india india 560061 bangalore",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9976,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_149219_1755179942",
+      "address": "bangalore bangalore 560102 bangalore",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9999,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_196784_1755179942",
+      "address": "fta 466001 bhopal",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9945,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_287471_1755179942",
+      "address": "a 603 devdan altezza new cg road chandkheda ahmedabad 382424 ahmedabad",
+      "predicted_cp": "AF588",
+      "actual_cp": "AF588",
+      "confidence": 0.9823,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_444928_1755179942",
+      "address": "yyyyy 122002 gurgaon",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9996,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_293402_1755179942",
+      "address": "room no 521 aayakar bhawan vejalpur nr prahladnagar road 380015 ahmedabad",
+      "predicted_cp": "AF868",
+      "actual_cp": "AF360",
+      "confidence": 0.5843,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_448846_1755179942",
+      "address": "road line 121006 ballabgarh",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9913,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_112903_1755179942",
+      "address": "india 520003 vijayawada",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9977,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_262653_1755179942",
+      "address": "8171 arakshan road pahar ganj 110055 delhi",
+      "predicted_cp": "NF191",
+      "actual_cp": "NF191",
+      "confidence": 0.9446,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_292037_1755179942",
+      "address": "bull 380015 ahmedabad",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9983,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_273105_1755179942",
+      "address": "fhy 421302 bhiwandi",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9972,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_164483_1755179942",
+      "address": "sai baba restaurant purana marble area near riiss office kishangarh 305802 ajmer",
+      "predicted_cp": "QF134",
+      "actual_cp": "QF134",
+      "confidence": 0.8975,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_355017_1755179942",
+      "address": "padinjare nilamel thabore vetticode p o kattanam alappuzha 690503 alleppey",
+      "predicted_cp": "OF1406",
+      "actual_cp": "OF1406",
+      "confidence": 0.622,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_363879_1755179942",
+      "address": "nhhhg 131101 kundli",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9994,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_332650_1755179942",
+      "address": "finolex academy of management and technology p 60 p 60 1 midc mirjole block ratnagiri 415639 ratnagi...",
+      "predicted_cp": "PF1852",
+      "actual_cp": "PF1852",
+      "confidence": 0.4997,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_444481_1755179942",
+      "address": "asr 122032 gurgaon",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.999,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_438136_1755179942",
+      "address": "tenon office building no 458 phase v sector 19 udyog vihar phase v sector 19 gurugram 122015 gurgaon",
+      "predicted_cp": "LF680",
+      "actual_cp": "LV00049",
+      "confidence": 0.7919,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_109503_1755179942",
+      "address": "2411 2411 521301 vijayawada",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9969,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_247182_1755179942",
+      "address": "c 37 nagal 110070 delhi",
+      "predicted_cp": "SF097",
+      "actual_cp": "S03",
+      "confidence": 0.3392,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_382392_1755179942",
+      "address": "hescom 590010 belgaum",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9726,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_119328_1755179942",
+      "address": "815 a behind cpr kalyana mandapam magunta layout nellore 524003 nellore",
+      "predicted_cp": "VF1413",
+      "actual_cp": "VF1413",
+      "confidence": 0.7142,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_440722_1755179942",
+      "address": "haryana gurgaon 122002 gurgaon",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9944,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_97145_1755179942",
+      "address": "nehru hostel b c block kmc manipal 576104 udupi",
+      "predicted_cp": "BF473",
+      "actual_cp": "BF473",
+      "confidence": 0.9873,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_359101_1755179942",
+      "address": "near odm international school guru iti lane similipada angul odisha 759122 angul",
+      "predicted_cp": "WF970",
+      "actual_cp": "WV00016",
+      "confidence": 0.6806,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_132372_1755179942",
+      "address": "brigade gateway residences l block rajajinagar l 306 bengaluru karnataka 560055 bangalore",
+      "predicted_cp": "BF788",
+      "actual_cp": "BF788",
+      "confidence": 0.8839,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_57217_1755179942",
+      "address": "1 harsiodhi dham soci 150 feet ring road maruti krupa rajkot gujarat 360005 rajkot",
+      "predicted_cp": "AF1907",
+      "actual_cp": "AF1907",
+      "confidence": 0.4061,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_349935_1755179942",
+      "address": "akhil nivas vellimon p o vellimon kollam 691511 quilon",
+      "predicted_cp": "OF2383",
+      "actual_cp": "OF2383",
+      "confidence": 0.9828,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_63360_1755179942",
+      "address": "djb tiruvallore 602002 thandalam",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9406,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_201055_1755179942",
+      "address": "noida noida 201305 noida",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9962,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_134270_1755179942",
+      "address": "35 1st main rd munireddy layout bandepalya garvebhavi palya bengaluru kar 560068 bangalore",
+      "predicted_cp": "BF2242",
+      "actual_cp": "BF2242",
+      "confidence": 0.7275,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_194241_1755179942",
+      "address": "flat 503 taruni enclara model colony opp to dafne toddlers vibhuram rajahmund pradesh 533103 rajahmu...",
+      "predicted_cp": "VF727",
+      "actual_cp": "VF727",
+      "confidence": 0.757,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_134546_1755179942",
+      "address": "9713 5 14 f cross nagavarapalya cv raman nagar 560093 bangalore",
+      "predicted_cp": "BF845",
+      "actual_cp": "BF845",
+      "confidence": 0.9713,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_451924_1755179942",
+      "address": "1834 greenwood city sector 45 gurgaon 122002 gurgaon",
+      "predicted_cp": "LF956",
+      "actual_cp": "LF956",
+      "confidence": 0.9387,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_349266_1755179942",
+      "address": "ajmal manzil bharathnagar 204a eravipuram po kollam 691011 quilon",
+      "predicted_cp": "OF2279",
+      "actual_cp": "OF2279",
+      "confidence": 0.9707,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_285280_1755179942",
+      "address": "mamata nivas gwalapada gopalmathbudharaja alt no odisha 768002 sambalpur",
+      "predicted_cp": "WF644",
+      "actual_cp": "WF644",
+      "confidence": 0.6789,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_87117_1755179942",
+      "address": "fufu 370001 bhuj",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9876,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_196176_1755179942",
+      "address": "e 5 old minal residency near vaibhav dairy j k road 462023 bhopal",
+      "predicted_cp": "IF531",
+      "actual_cp": "IF531",
+      "confidence": 0.8887,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_336129_1755179942",
+      "address": "404 b satellite society pimple saudagar nr govind garden chowck 411027 pune",
+      "predicted_cp": "PF582",
+      "actual_cp": "PF582",
+      "confidence": 0.9986,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_76799_1755179942",
+      "address": "gola bandh road paswan niwas 842001 muzaffarpur",
+      "predicted_cp": "TF152",
+      "actual_cp": "T05",
+      "confidence": 0.1562,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_6238_1755179942",
+      "address": "gssy 335001 sriganganagar",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9859,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_246064_1755179942",
+      "address": "1 cbd maharaja surajmal road near yamuna sports complex delhi 110092 delhi",
+      "predicted_cp": "NF049",
+      "actual_cp": "NF049",
+      "confidence": 0.6215,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_137603_1755179942",
+      "address": "shashikumar 560058 bangalore",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9997,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_3945_1755179942",
+      "address": "rawabhata transport nagar parking no 2 near bank of baroda raipur 493221 raipur",
+      "predicted_cp": "RF624",
+      "actual_cp": "RF624",
+      "confidence": 0.9972,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_142452_1755179942",
+      "address": "vaishnava wedding collection vindagan complex 560097 bangalore",
+      "predicted_cp": "BF1832",
+      "actual_cp": "BF2101",
+      "confidence": 0.1868,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_298658_1755179942",
+      "address": "14 west road besides prolab dhantoli nagpur 440012 nagpur",
+      "predicted_cp": "RF1185",
+      "actual_cp": "RF1185",
+      "confidence": 0.935,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_253530_1755179942",
+      "address": "gggg 110035 delhi",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9997,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_159143_1755179942",
+      "address": "78 62 arawali marg mansarovar jaipur 302020 jaipur",
+      "predicted_cp": "QF179",
+      "actual_cp": "QF179",
+      "confidence": 0.7988,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_282567_1755179942",
+      "address": "hhh 248001 dehradun",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9998,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_68850_1755179942",
+      "address": "india 600056 chennai",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9989,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_225357_1755179942",
+      "address": "house no 46 ward no 31 basant nagar lohora shimlapuri ludhiana ludhiana 141003 ludhiana",
+      "predicted_cp": "JF3311",
+      "actual_cp": "J03",
+      "confidence": 0.8125,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_137260_1755179942",
+      "address": "bangalore 560092 bangalore",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 1.0,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_133357_1755179942",
+      "address": "house no 314 mahaveer trishla appartement bhel layout second stage rajarajeshwari nagar bengaluru 56...",
+      "predicted_cp": "BF1583",
+      "actual_cp": "BF1583",
+      "confidence": 0.8289,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_106836_1755179942",
+      "address": "355 opp deepak sweets jhokan bagh jhansi near arjun motors royal enfield jhansi 284001 jhansi",
+      "predicted_cp": "UF4695",
+      "actual_cp": "UF4695",
+      "confidence": 0.4116,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_153485_1755179942",
+      "address": "a016 orc subiksha sy no 38 1 38 2 choodasandra village sarajapura hobli a binglare 560099 bangalore",
+      "predicted_cp": "BF1645",
+      "actual_cp": "BF1645",
+      "confidence": 0.8971,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_125792_1755179942",
+      "address": "no 20 ap nagar tharanallur thangam building trichy tamil nadu 629702 nagercoil",
+      "predicted_cp": "EF1093",
+      "actual_cp": "EF1093",
+      "confidence": 0.4841,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_294794_1755179942",
+      "address": "healthcare product deliver on priority near canal road dabki road old city akola 444002 akola",
+      "predicted_cp": "RF829",
+      "actual_cp": "RF829",
+      "confidence": 0.9158,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_195851_1755179942",
+      "address": "f 63 opp golden hills f 63 sarv sidheshwar mahadev mandir opp golden hills 462042 bhopal",
+      "predicted_cp": "IF495",
+      "actual_cp": "IF495",
+      "confidence": 0.1621,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_449981_1755179942",
+      "address": "ground floor beside pnb atm bawal rewari road vill jaliwas rewari haryana 123 123501 bawal",
+      "predicted_cp": "QF639",
+      "actual_cp": "QF639",
+      "confidence": 0.5924,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_18840_1755179942",
+      "address": "syno216 near sagar water plant gokul nagar bibinagar yadadri bhongirdist 508126 hyderabad",
+      "predicted_cp": "HF1326",
+      "actual_cp": "HF1326",
+      "confidence": 0.9273,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_5273_1755179942",
+      "address": "apple hospital sikar apple hospital near badri vihar sikar 332001 sikar",
+      "predicted_cp": "QF1123",
+      "actual_cp": "QF1123",
+      "confidence": 0.5364,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_74403_1755179942",
+      "address": "104 np industrial estate ambattur 600098 chennai",
+      "predicted_cp": "CF1357",
+      "actual_cp": "CF1357",
+      "confidence": 0.9939,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_35493_1755179942",
+      "address": "plot no 303 500088 hyderabad",
+      "predicted_cp": "HF1423",
+      "actual_cp": "HF1423",
+      "confidence": 0.7222,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_124785_1755179942",
+      "address": "bzbsb 627002 tirunelveli",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9993,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_354053_1755179942",
+      "address": "hindlabs clinicallaboratory manacaud thiruvathapuram india phone no roll 8 695009 trivandrum",
+      "predicted_cp": "OF801",
+      "actual_cp": "OF801",
+      "confidence": 0.8185,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_76266_1755179942",
+      "address": "laxmi pur kaurikar ruxavell east champaran raxaul bihar 845305 patna",
+      "predicted_cp": "TF261",
+      "actual_cp": "TF261",
+      "confidence": 0.9422,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_307599_1755179942",
+      "address": "198 3 raipur road 700047 kolkata",
+      "predicted_cp": "KF055",
+      "actual_cp": "KF055",
+      "confidence": 0.963,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_413585_1755179942",
+      "address": "shiv shakti chaudhary residence jai maa durga colony bhagwanpur talla haldwa kaladhungi uttarakhand ...",
+      "predicted_cp": "UF1972",
+      "actual_cp": "UF1972",
+      "confidence": 0.7545,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_14133_1755179942",
+      "address": "yqay 800003 patna",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9978,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_87935_1755179942",
+      "address": "lhomi thi village house no 215 opp sub urban police station dimapur 797112 jorhat",
+      "predicted_cp": "XF549",
+      "actual_cp": "XV00013",
+      "confidence": 0.7864,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_57043_1755179942",
+      "address": "103 gandhi nagar pahada kalka mata road 362225 rajkot",
+      "predicted_cp": "OTHER",
+      "actual_cp": "AF2043",
+      "confidence": 0.5957,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_275941_1755179942",
+      "address": "gale no 178 shinde naygaon road bramhanwada 422103 nasik",
+      "predicted_cp": "PF764",
+      "actual_cp": "PF764",
+      "confidence": 0.6437,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_362836_1755179942",
+      "address": "1503 tower 10 a suncity parikrama sector 20 panchkula 134117 panchkula",
+      "predicted_cp": "JF432",
+      "actual_cp": "JF432",
+      "confidence": 0.9979,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_308033_1755179942",
+      "address": "om sai automobiles 173 acharya prafulla chandra road near khanna cinema hall opp hp petrol pump 7000...",
+      "predicted_cp": "KF2996",
+      "actual_cp": "KF2996",
+      "confidence": 0.1459,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_163507_1755179942",
+      "address": "aaa 302001 jaipur",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9996,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_229949_1755179942",
+      "address": "365 7 u p 250001 meerut",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.6272,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_215377_1755179942",
+      "address": "dogra fruit shop near hotel best western patel chowk 145001 pathankot",
+      "predicted_cp": "JF1366",
+      "actual_cp": "JF1366",
+      "confidence": 0.535,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_297379_1755179942",
+      "address": "hrthj 440034 nagpur",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9987,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_201336_1755179942",
+      "address": "h1 emerald garden 7102 swaroop nagar 208002 kanpur",
+      "predicted_cp": "UF127",
+      "actual_cp": "UF127",
+      "confidence": 0.9899,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_103670_1755179942",
+      "address": "44 sec 3 eking colony hiran magn 313001 udaipur",
+      "predicted_cp": "QF517",
+      "actual_cp": "QF517",
+      "confidence": 0.9317,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_322504_1755179942",
+      "address": "vinay kulkarni 583231 hospet",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.993,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_11765_1755179942",
+      "address": "compusyss technologies 15 6 ram nagar 2nd street ram nagar main road near amsa vinayagar kovil 64160...",
+      "predicted_cp": "EF1538",
+      "actual_cp": "EF1538",
+      "confidence": 0.6569,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_266834_1755179942",
+      "address": "slg 734003 siliguri",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.9968,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_302564_1755179942",
+      "address": "salon raebareli up 229127 lucknow",
+      "predicted_cp": "INVALID",
+      "actual_cp": "INVALID",
+      "confidence": 0.6375,
+      "exact_match": true,
+      "is_invalid": true
+    },
+    {
+      "shipment_id": "BATCH_108412_1755179942",
+      "address": "c o ajay kumar 2nd floor powerganj road po r s ps kotwali dist gaya bairagi more 823001 gaya",
+      "predicted_cp": "TF356",
+      "actual_cp": "TF648",
+      "confidence": 0.5647,
+      "exact_match": false,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_54727_1755179942",
+      "address": "muthuoot fimen limuiled rangia branch 781381 nalbari",
+      "predicted_cp": "XF513",
+      "actual_cp": "XF513",
+      "confidence": 0.9266,
+      "exact_match": true,
+      "is_invalid": false
+    },
+    {
+      "shipment_id": "BATCH_131582_1755179942",
+      "address": "no 104 1st nd 2nd floor balepet main road bangalore 560053 bangalore",
+      "predicted_cp": "BF3046",
+      "actual_cp": "BF3046",
+      "confidence": 0.7155,
+      "exact_match": true,
+      "is_invalid": false
+    }
+  ]
+}

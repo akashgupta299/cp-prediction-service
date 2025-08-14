@@ -1,0 +1,776 @@
+{
+  "summary": {
+    "total_requests": 100,
+    "successful": 88,
+    "failed": 12,
+    "success_rate": 88.0,
+    "total_time_seconds": 6.880064964294434,
+    "avg_time_per_request_ms": 68.80064964294434
+  },
+  "results": [
+    {
+      "success": true,
+      "shipment_id": "BATCH_131582_1755179942",
+      "predicted_cp": "BF3046",
+      "confidence": 0.7155301988535416,
+      "original_cp": "BF3046",
+      "address": "no 104 1st nd 2nd floor balepet main road bangalore 560053 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_54727_1755179942",
+      "predicted_cp": "XF513",
+      "confidence": 0.9265584246194278,
+      "original_cp": "XF513",
+      "address": "muthuoot fimen limuiled rangia branch 781381 nalbari"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_108412_1755179942",
+      "predicted_cp": "TF356",
+      "confidence": 0.5646963564775638,
+      "original_cp": "TF648",
+      "address": "c o ajay kumar 2nd floor powerganj road po r s ps kotwali dist gaya bairagi more 823001 gaya"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_302564_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.6375423879653991,
+      "original_cp": "INVALID",
+      "address": "salon raebareli up 229127 lucknow"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_266834_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9968415606139868,
+      "original_cp": "INVALID",
+      "address": "slg 734003 siliguri"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_11765_1755179942",
+      "predicted_cp": "EF1538",
+      "confidence": 0.6568771493658191,
+      "original_cp": "EF1538",
+      "address": "compusyss technologies 15 6 ram nagar 2nd street ram nagar main road near amsa vinayagar kovil 64160..."
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_322504_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9929593225128964,
+      "original_cp": "INVALID",
+      "address": "vinay kulkarni 583231 hospet"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_103670_1755179942",
+      "predicted_cp": "QF517",
+      "confidence": 0.9316914841082453,
+      "original_cp": "QF517",
+      "address": "44 sec 3 eking colony hiran magn 313001 udaipur"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_201336_1755179942",
+      "predicted_cp": "UF127",
+      "confidence": 0.9899152371076088,
+      "original_cp": "UF127",
+      "address": "h1 emerald garden 7102 swaroop nagar 208002 kanpur"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_178960_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_297379_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9986976716024414,
+      "original_cp": "INVALID",
+      "address": "hrthj 440034 nagpur"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_392186_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_215377_1755179942",
+      "predicted_cp": "JF1366",
+      "confidence": 0.5349758606780608,
+      "original_cp": "JF1366",
+      "address": "dogra fruit shop near hotel best western patel chowk 145001 pathankot"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_229949_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.627229650817055,
+      "original_cp": "INVALID",
+      "address": "365 7 u p 250001 meerut"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_163507_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9996328385172438,
+      "original_cp": "INVALID",
+      "address": "aaa 302001 jaipur"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_275941_1755179942",
+      "predicted_cp": "PF764",
+      "confidence": 0.6437487097903484,
+      "original_cp": "PF764",
+      "address": "gale no 178 shinde naygaon road bramhanwada 422103 nasik"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_428822_1755179942"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_396092_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_362836_1755179942",
+      "predicted_cp": "JF432",
+      "confidence": 0.9979362134987891,
+      "original_cp": "JF432",
+      "address": "1503 tower 10 a suncity parikrama sector 20 panchkula 134117 panchkula"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_308033_1755179942",
+      "predicted_cp": "KF2996",
+      "confidence": 0.14589260739613394,
+      "original_cp": "KF2996",
+      "address": "om sai automobiles 173 acharya prafulla chandra road near khanna cinema hall opp hp petrol pump 7000..."
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_401509_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_57043_1755179942",
+      "predicted_cp": "OTHER",
+      "confidence": 0.5956778679445651,
+      "original_cp": "AF2043",
+      "address": "103 gandhi nagar pahada kalka mata road 362225 rajkot"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_87935_1755179942",
+      "predicted_cp": "XF549",
+      "confidence": 0.7863681803537632,
+      "original_cp": "XV00013",
+      "address": "lhomi thi village house no 215 opp sub urban police station dimapur 797112 jorhat"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_14133_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9978312796511651,
+      "original_cp": "INVALID",
+      "address": "yqay 800003 patna"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_413585_1755179942",
+      "predicted_cp": "UF1972",
+      "confidence": 0.7545498107824715,
+      "original_cp": "UF1972",
+      "address": "shiv shakti chaudhary residence jai maa durga colony bhagwanpur talla haldwa kaladhungi uttarakhand ..."
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_307599_1755179942",
+      "predicted_cp": "KF055",
+      "confidence": 0.9629524162375755,
+      "original_cp": "KF055",
+      "address": "198 3 raipur road 700047 kolkata"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_76266_1755179942",
+      "predicted_cp": "TF261",
+      "confidence": 0.9421975741486994,
+      "original_cp": "TF261",
+      "address": "laxmi pur kaurikar ruxavell east champaran raxaul bihar 845305 patna"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_354053_1755179942",
+      "predicted_cp": "OF801",
+      "confidence": 0.8184827838340818,
+      "original_cp": "OF801",
+      "address": "hindlabs clinicallaboratory manacaud thiruvathapuram india phone no roll 8 695009 trivandrum"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_124785_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9993052195109582,
+      "original_cp": "INVALID",
+      "address": "bzbsb 627002 tirunelveli"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_35493_1755179942",
+      "predicted_cp": "HF1423",
+      "confidence": 0.7221628081862009,
+      "original_cp": "HF1423",
+      "address": "plot no 303 500088 hyderabad"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_74403_1755179942",
+      "predicted_cp": "CF1357",
+      "confidence": 0.9938750707685193,
+      "original_cp": "CF1357",
+      "address": "104 np industrial estate ambattur 600098 chennai"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_449981_1755179942",
+      "predicted_cp": "QF639",
+      "confidence": 0.5923580155058863,
+      "original_cp": "QF639",
+      "address": "ground floor beside pnb atm bawal rewari road vill jaliwas rewari haryana 123 123501 bawal"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_18840_1755179942",
+      "predicted_cp": "HF1326",
+      "confidence": 0.9272684233012587,
+      "original_cp": "HF1326",
+      "address": "syno216 near sagar water plant gokul nagar bibinagar yadadri bhongirdist 508126 hyderabad"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_5273_1755179942",
+      "predicted_cp": "QF1123",
+      "confidence": 0.5364472195728663,
+      "original_cp": "QF1123",
+      "address": "apple hospital sikar apple hospital near badri vihar sikar 332001 sikar"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_195851_1755179942",
+      "predicted_cp": "IF495",
+      "confidence": 0.16206945403537862,
+      "original_cp": "IF495",
+      "address": "f 63 opp golden hills f 63 sarv sidheshwar mahadev mandir opp golden hills 462042 bhopal"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_294794_1755179942",
+      "predicted_cp": "RF829",
+      "confidence": 0.9157790953118163,
+      "original_cp": "RF829",
+      "address": "healthcare product deliver on priority near canal road dabki road old city akola 444002 akola"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_125792_1755179942",
+      "predicted_cp": "EF1093",
+      "confidence": 0.484052487641825,
+      "original_cp": "EF1093",
+      "address": "no 20 ap nagar tharanallur thangam building trichy tamil nadu 629702 nagercoil"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_153485_1755179942",
+      "predicted_cp": "BF1645",
+      "confidence": 0.8971347581439212,
+      "original_cp": "BF1645",
+      "address": "a016 orc subiksha sy no 38 1 38 2 choodasandra village sarajapura hobli a binglare 560099 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_298658_1755179942",
+      "predicted_cp": "RF1185",
+      "confidence": 0.9349555987275138,
+      "original_cp": "RF1185",
+      "address": "14 west road besides prolab dhantoli nagpur 440012 nagpur"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_426494_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_142452_1755179942",
+      "predicted_cp": "BF1832",
+      "confidence": 0.18675868326007378,
+      "original_cp": "BF2101",
+      "address": "vaishnava wedding collection vindagan complex 560097 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_106836_1755179942",
+      "predicted_cp": "UF4695",
+      "confidence": 0.411570173277995,
+      "original_cp": "UF4695",
+      "address": "355 opp deepak sweets jhokan bagh jhansi near arjun motors royal enfield jhansi 284001 jhansi"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_133357_1755179942",
+      "predicted_cp": "BF1583",
+      "confidence": 0.8289053137387529,
+      "original_cp": "BF1583",
+      "address": "house no 314 mahaveer trishla appartement bhel layout second stage rajarajeshwari nagar bengaluru 56..."
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_137260_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9999559926650534,
+      "original_cp": "INVALID",
+      "address": "bangalore 560092 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_225357_1755179942",
+      "predicted_cp": "JF3311",
+      "confidence": 0.8125062816767191,
+      "original_cp": "J03",
+      "address": "house no 46 ward no 31 basant nagar lohora shimlapuri ludhiana ludhiana 141003 ludhiana"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_68850_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9988737524374005,
+      "original_cp": "INVALID",
+      "address": "india 600056 chennai"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_282567_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9998335746186756,
+      "original_cp": "INVALID",
+      "address": "hhh 248001 dehradun"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_159143_1755179942",
+      "predicted_cp": "QF179",
+      "confidence": 0.7988126692925097,
+      "original_cp": "QF179",
+      "address": "78 62 arawali marg mansarovar jaipur 302020 jaipur"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_253530_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9996896190804967,
+      "original_cp": "INVALID",
+      "address": "gggg 110035 delhi"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_137603_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.99972998573753,
+      "original_cp": "INVALID",
+      "address": "shashikumar 560058 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_134546_1755179942",
+      "predicted_cp": "BF845",
+      "confidence": 0.9713271891174708,
+      "original_cp": "BF845",
+      "address": "9713 5 14 f cross nagavarapalya cv raman nagar 560093 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_451924_1755179942",
+      "predicted_cp": "LF956",
+      "confidence": 0.9387340987980345,
+      "original_cp": "LF956",
+      "address": "1834 greenwood city sector 45 gurgaon 122002 gurgaon"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_3945_1755179942",
+      "predicted_cp": "RF624",
+      "confidence": 0.9972022984822514,
+      "original_cp": "RF624",
+      "address": "rawabhata transport nagar parking no 2 near bank of baroda raipur 493221 raipur"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_427375_1755179942"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_420651_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_246064_1755179942",
+      "predicted_cp": "NF049",
+      "confidence": 0.621521913472003,
+      "original_cp": "NF049",
+      "address": "1 cbd maharaja surajmal road near yamuna sports complex delhi 110092 delhi"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_6238_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9858504087345374,
+      "original_cp": "INVALID",
+      "address": "gssy 335001 sriganganagar"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_76799_1755179942",
+      "predicted_cp": "TF152",
+      "confidence": 0.1562405170379944,
+      "original_cp": "T05",
+      "address": "gola bandh road paswan niwas 842001 muzaffarpur"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_336129_1755179942",
+      "predicted_cp": "PF582",
+      "confidence": 0.9985930598583771,
+      "original_cp": "PF582",
+      "address": "404 b satellite society pimple saudagar nr govind garden chowck 411027 pune"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_196176_1755179942",
+      "predicted_cp": "IF531",
+      "confidence": 0.888673955200796,
+      "original_cp": "IF531",
+      "address": "e 5 old minal residency near vaibhav dairy j k road 462023 bhopal"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_87117_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9876450244065569,
+      "original_cp": "INVALID",
+      "address": "fufu 370001 bhuj"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_431588_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_285280_1755179942",
+      "predicted_cp": "WF644",
+      "confidence": 0.6789434243423523,
+      "original_cp": "WF644",
+      "address": "mamata nivas gwalapada gopalmathbudharaja alt no odisha 768002 sambalpur"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_419912_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_349266_1755179942",
+      "predicted_cp": "OF2279",
+      "confidence": 0.9707149209663885,
+      "original_cp": "OF2279",
+      "address": "ajmal manzil bharathnagar 204a eravipuram po kollam 691011 quilon"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_194241_1755179942",
+      "predicted_cp": "VF727",
+      "confidence": 0.7569742874857203,
+      "original_cp": "VF727",
+      "address": "flat 503 taruni enclara model colony opp to dafne toddlers vibhuram rajahmund pradesh 533103 rajahmu..."
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_134270_1755179942",
+      "predicted_cp": "BF2242",
+      "confidence": 0.7274642588815341,
+      "original_cp": "BF2242",
+      "address": "35 1st main rd munireddy layout bandepalya garvebhavi palya bengaluru kar 560068 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_201055_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9961595352945849,
+      "original_cp": "INVALID",
+      "address": "noida noida 201305 noida"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_63360_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.94064483730096,
+      "original_cp": "INVALID",
+      "address": "djb tiruvallore 602002 thandalam"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_349935_1755179942",
+      "predicted_cp": "OF2383",
+      "confidence": 0.9827753262965158,
+      "original_cp": "OF2383",
+      "address": "akhil nivas vellimon p o vellimon kollam 691511 quilon"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_57217_1755179942",
+      "predicted_cp": "AF1907",
+      "confidence": 0.40612680467626916,
+      "original_cp": "AF1907",
+      "address": "1 harsiodhi dham soci 150 feet ring road maruti krupa rajkot gujarat 360005 rajkot"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_132372_1755179942",
+      "predicted_cp": "BF788",
+      "confidence": 0.8839153647879919,
+      "original_cp": "BF788",
+      "address": "brigade gateway residences l block rajajinagar l 306 bengaluru karnataka 560055 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_359101_1755179942",
+      "predicted_cp": "WF970",
+      "confidence": 0.6805523129766542,
+      "original_cp": "WV00016",
+      "address": "near odm international school guru iti lane similipada angul odisha 759122 angul"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_97145_1755179942",
+      "predicted_cp": "BF473",
+      "confidence": 0.9873285956024562,
+      "original_cp": "BF473",
+      "address": "nehru hostel b c block kmc manipal 576104 udupi"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_400033_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_440722_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9943584351119901,
+      "original_cp": "INVALID",
+      "address": "haryana gurgaon 122002 gurgaon"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_119328_1755179942",
+      "predicted_cp": "VF1413",
+      "confidence": 0.7141869120370529,
+      "original_cp": "VF1413",
+      "address": "815 a behind cpr kalyana mandapam magunta layout nellore 524003 nellore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_382392_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9725570700853755,
+      "original_cp": "INVALID",
+      "address": "hescom 590010 belgaum"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_109503_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9968768019020814,
+      "original_cp": "INVALID",
+      "address": "2411 2411 521301 vijayawada"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_247182_1755179942",
+      "predicted_cp": "SF097",
+      "confidence": 0.339191001887975,
+      "original_cp": "S03",
+      "address": "c 37 nagal 110070 delhi"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_438136_1755179942",
+      "predicted_cp": "LF680",
+      "confidence": 0.7918526951957899,
+      "original_cp": "LV00049",
+      "address": "tenon office building no 458 phase v sector 19 udyog vihar phase v sector 19 gurugram 122015 gurgaon"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_444481_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9990134648135466,
+      "original_cp": "INVALID",
+      "address": "asr 122032 gurgaon"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_444928_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9996461931070725,
+      "original_cp": "INVALID",
+      "address": "yyyyy 122002 gurgaon"
+    },
+    {
+      "success": false,
+      "error": "HTTP 404: {\"detail\":\"No model for pincode prefix\"}",
+      "shipment_id": "BATCH_395531_1755179942"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_363879_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.999410026176567,
+      "original_cp": "INVALID",
+      "address": "nhhhg 131101 kundli"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_355017_1755179942",
+      "predicted_cp": "OF1406",
+      "confidence": 0.6219739290080112,
+      "original_cp": "OF1406",
+      "address": "padinjare nilamel thabore vetticode p o kattanam alappuzha 690503 alleppey"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_164483_1755179942",
+      "predicted_cp": "QF134",
+      "confidence": 0.8975446013106219,
+      "original_cp": "QF134",
+      "address": "sai baba restaurant purana marble area near riiss office kishangarh 305802 ajmer"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_273105_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9972046818213293,
+      "original_cp": "INVALID",
+      "address": "fhy 421302 bhiwandi"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_292037_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9983073537976614,
+      "original_cp": "INVALID",
+      "address": "bull 380015 ahmedabad"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_262653_1755179942",
+      "predicted_cp": "NF191",
+      "confidence": 0.9445681218741924,
+      "original_cp": "NF191",
+      "address": "8171 arakshan road pahar ganj 110055 delhi"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_112903_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9976671749510267,
+      "original_cp": "INVALID",
+      "address": "india 520003 vijayawada"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_448846_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9912536283093105,
+      "original_cp": "INVALID",
+      "address": "road line 121006 ballabgarh"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_293402_1755179942",
+      "predicted_cp": "AF868",
+      "confidence": 0.5842554358949366,
+      "original_cp": "AF360",
+      "address": "room no 521 aayakar bhawan vejalpur nr prahladnagar road 380015 ahmedabad"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_332650_1755179942",
+      "predicted_cp": "PF1852",
+      "confidence": 0.4997252523377848,
+      "original_cp": "PF1852",
+      "address": "finolex academy of management and technology p 60 p 60 1 midc mirjole block ratnagiri 415639 ratnagi..."
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_287471_1755179942",
+      "predicted_cp": "AF588",
+      "confidence": 0.9823349581144436,
+      "original_cp": "AF588",
+      "address": "a 603 devdan altezza new cg road chandkheda ahmedabad 382424 ahmedabad"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_196784_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9944532525651973,
+      "original_cp": "INVALID",
+      "address": "fta 466001 bhopal"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_149219_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9999118143398209,
+      "original_cp": "INVALID",
+      "address": "bangalore bangalore 560102 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_137272_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9975740613749872,
+      "original_cp": "INVALID",
+      "address": "india india 560061 bangalore"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_100132_1755179942",
+      "predicted_cp": "INVALID",
+      "confidence": 0.9976522416583801,
+      "original_cp": "INVALID",
+      "address": "vvv 574111 udupi"
+    },
+    {
+      "success": true,
+      "shipment_id": "BATCH_122028_1755179942",
+      "predicted_cp": "EF187",
+      "confidence": 0.49236129181178956,
+      "original_cp": "EF187",
+      "address": "saidev enterprise naicker new street ground floor no 213 madurai 625001 madurai"
+    }
+  ]
+}

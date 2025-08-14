@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 *.pkl
+models/
+load_test*
+
