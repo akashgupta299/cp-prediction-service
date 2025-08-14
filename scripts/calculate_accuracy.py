@@ -37,8 +37,8 @@ def get_predictions_from_db():
         
         query = """
         SELECT shipment_id, address, predicted_cp, confidence, timestamp 
-        FROM predictions 
-        WHERE shipment_id LIKE 'BATCH_%'
+        FROM prediction_history 
+        WHERE shipment_id LIKE 'ACCURACY_TEST%'
         ORDER BY timestamp DESC
         """
         
