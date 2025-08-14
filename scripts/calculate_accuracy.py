@@ -14,11 +14,14 @@ def load_actual_data(file_path):
     print(f"📊 Loading actual data from {file_path}")
     df = pd.read_parquet(file_path)
     
-    # Create a mapping from address to actual cp_code
+    # Create a mapping from address to actual cp_code and delivered_by_hub_code
     actual_mapping = {}
     for idx, row in df.iterrows():
         if pd.notna(row['full_address']) and pd.notna(row['cp_code']):
-            actual_mapping[row['full_address']] = row['cp_code']
+            actual_mapping[row['full_address']] = {
+                'cp_code': row['cp_code'],
+                'delivered_by_hub_code': row.get('Delivered_By_Hub_Code', 'N/A')
+            }
     
     print(f"✅ Loaded {len(actual_mapping)} address-to-cp mappings")
     return actual_mapping
@@ -63,6 +66,10 @@ def calculate_accuracy(predictions_df, actual_mapping):
         'invalid_predictions': 0,
         'accuracy_overall': 0.0,
         'accuracy_valid_only': 0.0,
+        'accuracy_all_records': 0.0,
+        'delivered_by_hub_matches': 0,
+        'delivered_by_hub_accuracy': 0.0,
+        'delivered_by_hub_accuracy_valid_only': 0.0,
         'confidence_stats': {},
         'detailed_results': []
     }
@@ -70,6 +77,7 @@ def calculate_accuracy(predictions_df, actual_mapping):
     exact_matches = 0
     invalid_predictions = 0
     matched_addresses = 0
+    delivered_by_hub_matches = 0
     confidence_scores = []
     
     for idx, row in predictions_df.iterrows():
@@ -81,13 +89,19 @@ def calculate_accuracy(predictions_df, actual_mapping):
         # Check if we have actual data for this address
         if address in actual_mapping:
             matched_addresses += 1
-            actual_cp = actual_mapping[address]
+            actual_data = actual_mapping[address]
+            actual_cp = actual_data['cp_code']
+            delivered_by_hub = actual_data['delivered_by_hub_code']
             
             is_exact_match = (predicted_cp == actual_cp)
             is_invalid = (predicted_cp == 'INVALID')
+            is_delivered_by_hub_match = (predicted_cp == delivered_by_hub)
             
             if is_exact_match:
                 exact_matches += 1
+            
+            if is_delivered_by_hub_match:
+                delivered_by_hub_matches += 1
             
             if is_invalid:
                 invalid_predictions += 1
@@ -99,9 +113,11 @@ def calculate_accuracy(predictions_df, actual_mapping):
                 'address': address[:100] + '...' if len(address) > 100 else address,
                 'predicted_cp': predicted_cp,
                 'actual_cp': actual_cp,
+                'delivered_by_hub_code': delivered_by_hub,
                 'confidence': confidence,
                 'exact_match': is_exact_match,
-                'is_invalid': is_invalid
+                'is_invalid': is_invalid,
+                'delivered_by_hub_match': is_delivered_by_hub_match
             })
     
     # Calculate metrics
@@ -109,9 +125,11 @@ def calculate_accuracy(predictions_df, actual_mapping):
     results['matched_addresses'] = matched_addresses
     results['exact_matches'] = exact_matches
     results['invalid_predictions'] = invalid_predictions
+    results['delivered_by_hub_matches'] = delivered_by_hub_matches
     
     if matched_addresses > 0:
-        results['accuracy_overall'] = exact_matches / matched_addresses
+        # Overall accuracy (all records)
+        results['accuracy_all_records'] = exact_matches / matched_addresses
         
         # Accuracy excluding INVALID predictions
         valid_predictions = matched_addresses - invalid_predictions
@@ -119,6 +137,14 @@ def calculate_accuracy(predictions_df, actual_mapping):
             valid_exact_matches = sum(1 for r in results['detailed_results'] 
                                     if r['exact_match'] and not r['is_invalid'])
             results['accuracy_valid_only'] = valid_exact_matches / valid_predictions
+        
+        # Delivered by hub accuracy
+        results['delivered_by_hub_accuracy'] = delivered_by_hub_matches / matched_addresses
+
+        # Delivered by hub accuracy specifically for non-invalid predictions
+        valid_delivered_by_hub_matches = sum(1 for r in results['detailed_results'] 
+                                            if r['delivered_by_hub_match'] and not r['is_invalid'])
+        results['delivered_by_hub_accuracy_valid_only'] = valid_delivered_by_hub_matches / valid_predictions
     
     # Confidence statistics
     if confidence_scores:
@@ -193,8 +219,11 @@ def print_results(results, cp_analysis, actual_cp_analysis):
     print(f"   Matched Addresses: {results['matched_addresses']}")
     print(f"   Exact Matches: {results['exact_matches']}")
     print(f"   Invalid Predictions: {results['invalid_predictions']}")
-    print(f"   Overall Accuracy: {results['accuracy_overall']:.4f} ({results['accuracy_overall']*100:.2f}%)")
+    print(f"   Delivered By Hub Matches: {results['delivered_by_hub_matches']}")
+    print(f"   Overall Accuracy (All Records): {results['accuracy_all_records']:.4f} ({results['accuracy_all_records']*100:.2f}%)")
     print(f"   Accuracy (Valid Only): {results['accuracy_valid_only']:.4f} ({results['accuracy_valid_only']*100:.2f}%)")
+    print(f"   Delivered By Hub Accuracy: {results['delivered_by_hub_accuracy']:.4f} ({results['delivered_by_hub_accuracy']*100:.2f}%)")
+    print(f"   Delivered By Hub Accuracy (Valid Only): {results['delivered_by_hub_accuracy_valid_only']:.4f} ({results['delivered_by_hub_accuracy_valid_only']*100:.2f}%)")
     
     print(f"\n📈 Confidence Statistics:")
     if results['confidence_stats']:
@@ -224,6 +253,11 @@ def print_results(results, cp_analysis, actual_cp_analysis):
     incorrect_samples = [r for r in results['detailed_results'] if not r['exact_match'] and not r['is_invalid']][:5]
     for sample in incorrect_samples:
         print(f"   {sample['predicted_cp']} != {sample['actual_cp']} (conf: {sample['confidence']:.3f})")
+    
+    print(f"\n🚚 Sample Delivered By Hub Matches:")
+    hub_matches = [r for r in results['detailed_results'] if r['delivered_by_hub_match']][:5]
+    for sample in hub_matches:
+        print(f"   Predicted: {sample['predicted_cp']} == Delivered By Hub: {sample['delivered_by_hub_code']} (conf: {sample['confidence']:.3f})")
 
 def main():
     """Main function"""
@@ -256,8 +290,12 @@ def main():
                 'total_predictions': results['total_predictions'],
                 'matched_addresses': results['matched_addresses'],
                 'exact_matches': results['exact_matches'],
-                'overall_accuracy': results['accuracy_overall'],
+                'invalid_predictions': results['invalid_predictions'],
+                'delivered_by_hub_matches': results['delivered_by_hub_matches'],
+                'overall_accuracy_all_records': results['accuracy_all_records'],
                 'valid_only_accuracy': results['accuracy_valid_only'],
+                'delivered_by_hub_accuracy': results['delivered_by_hub_accuracy'],
+                'delivered_by_hub_accuracy_valid_only': results['delivered_by_hub_accuracy_valid_only'],
                 'confidence_stats': results['confidence_stats']
             },
             'cp_analysis': cp_analysis,
